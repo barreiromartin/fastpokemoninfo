@@ -381,7 +381,7 @@ export default{
                                     <th class="text-center">X4</th>
                                     <td class="text-center w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img v-for="(type, index) in  doubleWeaknesses" :key="index" :src="`/types/${type}.png`" style="width: 3em;" alt="">
+                                            <img v-for="(type, index) in  doubleWeaknesses" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" style="width: 3em;" alt="">
                                         </div>
                                     </td>
                                 </tr>
@@ -389,7 +389,7 @@ export default{
                                     <th class="text-center">X2</th>
                                     <td class="text-center w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img v-for="(type, index) in weaknesses" :key="index" :src="`/types/${type}.png`" alt="" style="width: 3em;">
+                                            <img v-for="(type, index) in weaknesses" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" alt="" style="width: 3em;">
                                         </div>
                                     </td>
                                 </tr>
@@ -397,7 +397,7 @@ export default{
                                     <th class="text-center">X1</th>
                                     <td class="text-center w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img v-for="(type, index) in neutral" :key="index" :src="`/types/${type}.png`" alt="" style="width: 3em;">
+                                            <img v-for="(type, index) in neutral" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" alt="" style="width: 3em;">
                                         </div>
                                         
                                     </td>
@@ -406,7 +406,7 @@ export default{
                                     <th class="text-center">X0.5</th>
                                     <td class="text-center  w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img style="width: 3em;" v-for="(type, index) in resistances" :key="index" :src="`/types/${type}.png`" alt="">
+                                            <img style="width: 3em;" v-for="(type, index) in resistances" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" alt="">
                                         </div>
                                     </td>
                                 </tr>
@@ -414,7 +414,7 @@ export default{
                                     <th class="text-center">X0.25</th>
                                     <td class="text-center w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img v-for="(type, index) in doubleResistances" :key="index" :src="`/types/${type}.png`" style="width: 3em;" alt="">
+                                            <img v-for="(type, index) in doubleResistances" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" style="width: 3em;" alt="">
                                         </div>
                                     </td>
                                 </tr>
@@ -422,7 +422,7 @@ export default{
                                     <th class="text-center">X0</th>
                                     <td class="text-center w-100">
                                         <div class="d-flex justify-content-center">
-                                            <img v-for="(type, index) in immunities" :key="index" :src="`/types/${type}.png`" style="width: 3em;" alt="">
+                                            <img v-for="(type, index) in immunities" :key="index" :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/types/${type}.png`" style="width: 3em;" alt="">
                                         </div>
                                         
                                     </td>
@@ -459,7 +459,7 @@ export default{
                                         </a>
                                     </td>
                                     <td class="text-center">
-                                        <img :src="`/categories/${move.category}.png`" style="width: 2.7em;" alt="">
+                                        <img :src="`https://github.com/barreiromartin/fastpokemoninfo/tree/main/public/categories/${move.category}.png`" style="width: 2.7em;" alt="">
                                     </td>
                                     <td class="text-center">
                                         {{ move.power || "-"}}
